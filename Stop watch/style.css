@@ -1,0 +1,19 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ .stopWatch{
+    width: 400px;
+    height: 300px;
+    margin: 200px auto;
+    text-align: center;
+ }
+ button{
+    padding: 2px 5px;
+ }
+ button:hover{
+    background-color: red;
+    color: #fff;
+    border: 1px solid grey;
+ }

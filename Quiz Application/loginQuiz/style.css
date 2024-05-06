@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('./Assets/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+   
+}
+#inputBar,#inputBar2, .btn-primary{
+    width: 230px;
+}
+.barInput{
+    width: 250px;
+    background-color: #f1eaea;
+    height: 200px;
+    margin-bottom: 10px;
+    margin-left: 400px;
+    margin-top: 180px;
+    padding: 3px 10px;
+    border-radius: 7px;
+}
+#inputBar, #inputBar2{
+    margin-bottom: 10px;
+}
+input{
+    outline: none !important;
+    box-shadow: none !important;
+}

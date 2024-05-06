@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 m-auto myMobile">
+                <div class="row myRow1">
+                    <div class="col  myMobile2">
+                        <div class="timerParent">
+                            <p id="timer"></p>
+                            <p id="dateTime"></p>
+                        </div>
+                        <div class="imgBar">
+                            <img src="./Assets/g.png" alt="" width="25px">
+                            <div>
+                                <img src="./Assets/voice.png" alt="" width="16px">
+                                <img src="./Assets/Google_Lens.png" alt="" width="26px">
+                            </div>
+                        </div>
+                        <div class="appImg">
+                            <div class="app1">
+                                <div class="img1">
+                                    <i class="fa-solid fa-image" id="gallery" style="color: #ED474D;"></i>
+                                </div>
+                                <p id="imgName">Gallery</p>
+                            </div>
+                            <div class="app1">
+                                <div class="img1">
+                                    <i class="fa-solid fa-gear" id="setting"></i>
+                                </div>
+                                <p id="imgName">Setting</p>
+                            </div>
+                            <div class="app1">
+                                <div class="img1">
+                                    <img src="./Assets/chrome.jpg" alt="" width="30px">
+                                </div>
+                                <p id="imgName">Chrome</p>
+                            </div>
+                            <div class="app1">
+                                <div class="img1">
+                                    <img src="./Assets/fmanager.jpg" alt="" width="30px">
+                                </div>
+                                <p id="imgName">File Manager</p>
+                            </div>
+                        </div>
+                        <div class="appImg2">
+                            <div class="app1">
+                                <div class="img1">
+                                    <img src="./Assets/playstore.png" alt="" width="26px">
+                                </div>
+                                <p id="imgName">Play Store</p>
+                            </div>
+                            <div class="app1">
+                                <div class="img1">
+                                    <img src="./Assets/music.png" alt="" width="30px">
+                                </div>
+                                <p id="imgName">Music</p>
+                            </div>
+                            <div class="app1">
+                                <div class="img1">
+                                    <i class="fa-solid fa-clock"></i>
+                                </div>
+                                <p id="imgName">Clock</p>
+                            </div>
+                            <div class="app1">
+                                <div class="img1">
+                                    <i class="fa-brands fa-square-whatsapp" style="color: #25D366 ;"></i>
+                                </div>
+                                <p id="imgName">WhatsApp</p>
+                            </div>
+                        </div>
+                        <div class="appImg3">
+                            <div class="app1">
+                                <div class="img1">
+                                    <i class="fa-solid fa-phone" style="color: dodgerblue;"></i>
+                                </div>
+                                <p id="imgName"></p>
+                            </div>
+                            <div class="app1">
+                                <div class="img1">
+                                    <i class="fa-solid fa-message" style="color: dodgerblue;"></i>
+                                </div>
+                                <p id="imgName"></p>
+                            </div>
+                            <div class="app1">
+                                <div class="img1">
+                                    <i class="fa-solid fa-camera" style="color: grey;"></i>
+                                </div>
+                                <p id="imgName"></p>
+                            </div>
+                        </div>
+                        <div class="circle">
+                            <p id="circle2"></p>
+                        </div>
+                    </div>
+                    <div class="col gallerySites" style="display: none;">
+                        <div class="headTop">
+                            <div class="inputBar">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                                <input type="text" placeholder="Time,place,people...">
+                            </div>
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+                        <div class="circle">
+                            <p id="circle2"></p>
+                        </div>
+                        <div class="btnGroup">
+                        </div>
+                        <div class="allImages">
+
+                        </div>
+                    </div>
+                    <div class="col settingDetail" style="background-color: #fff; display: none;">
+                        <div data-bs-spy="scroll" id="test" data-bs-target="#navbar-example2"
+                            data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true"
+                            class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+                            <div class="setting1">
+                                <h6>Settings</h6>
+                                <div class="inputBar2">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                    <input type="text" placeholder="Time,place,people...">
+                                </div>
+                            </div>
+                            <div class="sigUp">
+                                <i id="signInFirst" class="fa-solid fa-user"></i>
+                                <div class="sign1">
+                                    <div class="sign6">
+                                        <p id="sign2">Sign in</p>
+                                        <p id="sign3">Sign in to use services</p>
+                                    </div>
+                                    <div>
+                                        <i id="sign4" class="fa-solid fa-greater-than"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sigUp">
+                                <i class="fa-solid fa-plane" style="color: coral;"></i>
+                                <div class="sign1-b">
+                                    <p id="sign2">Aeroplane mode</p>
+                                    <i id="sign4" class="fa-solid fa-toggle-on"></i>
+                                </div>
+                            </div>
+                            <div class="sigUp">
+                                <i class="fa-solid fa-angles-up" style="color: #3BE35D;"></i>
+                                <div class="sign1-b">
+                                    <p id="sign2">SIM card & mobile data</p>
+                                    <i id="sign4" class="fa-solid fa-greater-than"></i>
+                                </div>
+                            </div>
+                            <div class="sigUp">
+                                <i class="fa-solid fa-wifi" style="color: #2F8AEB; font-size: 16px;"></i>
+                                <div class="sign1-b">
+                                    <p id="sign2">Wi-Fi</p>
+                                    <i id="sign4" class="fa-solid fa-greater-than"></i>
+                                </div>
+                            </div>
+                            <div class="sigUp">
+                                <i class="fa-brands fa-bluetooth-b" style="color: #0A76F2;"></i>
+                                <div class="sign1-b">
+                                    <p id="sign2">Bluetooth</p>
+                                    <i id="sign4" class="fa-solid fa-greater-than"></i>
+                                </div>
+                            </div>
+                            <div class="sigUp">
+                                <i class="fa-solid fa-globe" style="color: #0A76F2;"></i>
+                                <div class="sign1">
+                                    <p id="sign2">Other wireless connections</p>
+                                    <i id="sign4" class="fa-solid fa-greater-than"></i>
+                                </div>
+                            </div>
+                            <div class="sigUp">
+                                <i class="fa-solid fa-bars" style="color: #2E6994;"></i>
+                                <div class="sign1-b">
+                                    <p id="sign2">Notifications & status bar</p>
+                                    <i id="sign4" class="fa-solid fa-greater-than"></i>
+                                </div>
+                            </div>
+                            <div class="sigUp">
+                                <i class="fa-solid fa-circle-half-stroke" style="color: #F59D05;"></i>
+                                <div class="sign1-b">
+                                    <p id="sign2">Display & brightness</p>
+                                    <i id="sign4" class="fa-solid fa-greater-than"></i>
+                                </div>
+                            </div>
+                            <div class="sigUp">
+                                <i class="fa-solid fa-landmark" style="color: #F55905;"></i>
+                                <div class="sign1-b">
+                                    <p id="sign2">Home screen & Lock Screen Magazine</p>
+                                    <i id="sign4" class="fa-solid fa-greater-than"></i>
+                                </div>
+                            </div>
+                            <div class="sigUp">
+                                <i class="fa-solid fa-volume-high" style="font-size: 18px; color: #25D366;"></i>
+                                <div class="sign1-b">
+                                    <p id="sign2">Sound & vibration</p>
+                                    <i id="sign4" class="fa-solid fa-greater-than"></i>
+                                </div>
+                            </div>
+                            <div class="sigUp">
+                                <i class="fa-regular fa-moon" style="color: #0C3085;"></i>
+                                <div class="sign1">
+                                    <p id="sign2">Do not Disturb</p>
+                                    <i id="sign4" class="fa-solid fa-greater-than"></i>
+                                </div>
+                            </div>
+                            <div class="sigUp">
+                                <i class="fa-solid fa-lock" style="color: #0924DB;"></i>
+                                <div class="sign1-b">
+                                    <p id="sign2">Password & biometrics</p>
+                                    <i id="sign4" class="fa-solid fa-greater-than"></i>
+                                </div>
+                            </div>
+                            <div class="sigUp">
+                                <i class="fa-regular fa-snowflake" style="color: #F0B607;"></i>
+                                <div class="sign1-b">
+                                    <p id="sign2">Convenience tools</p>
+                                    <i id="sign4" class="fa-solid fa-greater-than"></i>
+                                </div>
+                            </div>
+                            <div class="sigUp">
+                                <i class="fa-solid fa-eye" style="color: #0924DB;"></i>
+                                <div class="sign1-b">
+                                    <p id="sign2">Privacy</p>
+                                    <i id="sign4" class="fa-solid fa-greater-than"></i>
+                                </div>
+                            </div>
+                            <div class="sigUp">
+                                <i class="fa-solid fa-location-dot" style="color: #F59D05;"></i>
+                                <div class="sign1-b">
+                                    <p id="sign2">Location</p>
+                                    <i id="sign4" class="fa-solid fa-greater-than"></i>
+                                </div>
+                            </div>
+                            <div class="sigUp">
+                                <i class="fa-solid fa-shield-halved" style="color: #0924DB;"></i>
+                                <div class="sign1-b">
+                                    <p id="sign2">Security</p>
+                                    <i id="sign4" class="fa-solid fa-greater-than"></i>
+                                </div>
+                            </div>
+                            <div class="sigUp">
+                                <i class="fa-solid fa-battery-full" style="color: #02BD2D;"></i>
+                                <div class="sign1-b">
+                                    <p id="sign2">Battery</p>
+                                    <i id="sign4" class="fa-solid fa-greater-than"></i>
+                                </div>
+                            </div>
+                            <div class="sigUp">
+                                <i class="fa-brands fa-digital-ocean" style="color: #3BE35D;"></i>
+                                <div class="sign1-b">
+                                    <p id="sign2">Digital wellbeing & parental controls</p>
+                                    <i id="sign4" class="fa-solid fa-greater-than"></i>
+                                </div>
+                            </div>
+                            <div class="sigUp">
+                                <i class="fa-solid fa-language" style="color: #F55905;"></i>
+                                <div class="sign1-b">
+                                    <p id="sign2">Language & region</p>
+                                    <i id="sign4" class="fa-solid fa-greater-than"></i>
+                                </div>
+                            </div>
+                            <div class="sigUp">
+                                <i class="fa-solid fa-sliders" style="color: #0924DB;"></i>
+                                <div class="sign1">
+                                    <p id="sign2">Additional settings</p>
+                                    <i id="sign4" class="fa-solid fa-greater-than"></i>
+                                </div>
+                            </div>
+                            <div class="sigUp">
+                                <i class="fa-brands fa-uncharted" style="color: #0DDE3D;"></i>
+                                <div class="sign1-b">
+                                    <p id="sign2">Software update</p>
+                                    <i id="sign4" class="fa-solid fa-greater-than"></i>
+                                </div>
+                            </div>
+                            <div class="sigUp">
+                                <i class="fa-solid fa-circle-info"></i>
+                                <div class="sign1">
+                                    <p id="sign2">About phone</p>
+                                    <i id="sign4" class="fa-solid fa-greater-than"></i>
+                                </div>
+                            </div>
+                            <div class="sigUp">
+                                <i class="fa-solid fa-bars-progress" style="color: #05EB61;"></i>
+                                <div class="sign1-b">
+                                    <p id="sign2">App management</p>
+                                    <i id="sign4" class="fa-solid fa-greater-than"></i>
+                                </div>
+                            </div>
+                            <div class="sigUp">
+                                <i class="fa-solid fa-clone" style="color: #F53F07;"></i>
+                                <div class="sign1-b">
+                                    <p id="sign2">App cloner</p>
+                                    <i id="sign4" class="fa-solid fa-greater-than"></i>
+                                </div>
+                            </div>
+                            <div class="sigUp">
+                                <i class="fa-brands fa-fantasy-flight-games" style="color: #093280;"></i>
+                                <div class="sign1-b">
+                                    <p id="sign2">Game Space</p>
+                                    <i id="sign4" class="fa-solid fa-greater-than"></i>
+                                </div>
+                            </div>
+                            <div class="sigUp">
+                                <i class="fa-solid fa-table-columns" style="color: #049160;"></i>
+                                <div class="sign1">
+                                    <p id="sign2">Split screen</p>
+                                    <i id="sign4" class="fa-solid fa-greater-than"></i>
+                                </div>
+                            </div>
+                            <div class="sigUp">
+                                <i class="fa-regular fa-user" style="color: #0FD122;"></i>
+                                <div class="sign1-b">
+                                    <p id="sign2">Users & accounts</p>
+                                    <i id="sign4" class="fa-solid fa-greater-than"></i>
+                                </div>
+                            </div>
+                            <div class="sigUp" id="">
+                                <i class="fa-brands fa-google" style="color: #0B57E3;"></i>
+                                <div class="sign1">
+                                    <p id="sign2">Google</p>
+                                    <i id="sign4" class="fa-solid fa-greater-than"></i>
+                                </div>
+                            </div>
+                            <div class="circle">
+                                <p id="circle2"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col googleDetail" style="display: none;">
+                        <div class="notification">
+                            <i class="fa-solid fa-bell"></i>
+                            <img src="./images/16.jpg" alt="">
+                        </div>
+                        <div class="googleImg">
+                            <img src="./images2/google.jpg" alt="">
+                        </div>
+
+                        <div class="imgBar">
+                            <p>Search</p>
+                            <div>
+                                <img src="./Assets/voice.png" alt="" width="16px">
+                                <img src="./Assets/Google_Lens.png" alt="" width="26px">
+                            </div>
+                        </div>
+                        <div data-bs-spy="scroll" id="slideScroll" data-bs-target="#navbar-example2"
+                            data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true"
+                            class="scrollspy-example bg-body-tertiary p-0 rounded-2" tabindex="0">
+                            <div class="slideFlex">
+                                <div class="slide1">
+                                    <i class="fa-solid fa-tag fa-rotate-90"></i>
+                                    <div class="slide-child">
+                                        <p>Shop for products</p>
+                                        <p id="slide-child2">IN YOUR SCREENSHOTS</p>
+                                    </div>
+                                </div>
+                                <div class="slide1">
+                                    <i class="fa-solid fa-globe"></i>
+                                    <div class="slide-child">
+                                        <p>Translate text</p>
+                                        <p id="slide-child2">WITH YOUR CAMERA</p>
+                                    </div>
+                                </div>
+                                <div class="slide1">
+                                    <i class="fa-solid fa-images"></i>
+                                    <div class="slide-child">
+                                        <p>Search photo</p>
+                                        <p id="slide-child2">FROM YOUR LIBRARY</p>
+                                    </div>
+                                </div>
+                                <div class="slide1">
+                                    <i class="fa-solid fa-graduation-cap"></i>
+                                    <div class="slide-child">
+                                        <p>Solve homework</p>
+                                        <p id="slide-child2">WITH YOUR CAMERA</p>
+                                    </div>
+                                </div>
+                                <div class="slide1">
+                                    <i class="fa-solid fa-music"></i>
+                                    <div class="slide-child">
+                                        <p>Identify song</p>
+                                        <p id="slide-child2">BY LISTENING</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-bs-spy="scroll" id="newsDescript" data-bs-target="#navbar-example2"
+                            data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true"
+                            class="scrollspy-example bg-body-tertiary p-0 rounded-2" tabindex="0">
+                            
+                            
+                            
+                            
+
+                        </div>
+
+                        <div class="circle">
+                            <p id="circle2"></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,403 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ body{
+    background-color: rgb(178, 229, 212);
+ }
+ .myMobile{
+    border: 1px solid grey;
+    height: 540px;
+    border-radius: 15px;
+    background-color: black;
+ }
+ .container{
+   margin-top: 20px;
+ }
+ .myMobile2{
+    height: 520px;
+    border-radius: 15px;
+    margin: 8px 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    background-image: url('./Assets/wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .gallerySites{
+    height: 500px;
+    border-radius: 15px;
+    margin: 8px 3px;
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+ }
+ .imgBar{
+    width: 250px;
+    height: 37px;
+    margin: 20px 0;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 10px;
+    background-color: #f7f4f4;
+ }
+ .imgBar:hover{
+   background-color: rgb(220, 217, 217);
+ }
+ .appImg{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+ }
+ .app1{
+    width: 45px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .img1{
+    text-align: center;
+    border-radius: 10px;
+    width: 40px;
+    height: 35px;
+    border: 1px solid ;
+    padding: 3px;
+    background-color: #fff;
+ }
+ .img1 i {
+    font-size: 30px;
+ }
+ #imgName{
+    font-size: 9px;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    margin-top: 3px;
+ }
+ .appImg2{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+ }
+ .appImg3{
+    display: flex;
+    justify-content: space-around;
+    margin: 12px 0;
+ }
+ .circle{
+    border: 1px solid black;
+    position: absolute;
+    width: 35px;
+    height: 13px;
+    top: 0;
+    left: 45%;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+ }
+ #circle2{
+    width: 5px;
+    height: 5px;
+    background-color: #fff;
+    border-radius: 50%;
+ }
+
+ .timerParent{
+    width: 100px;
+    font-family: sans-serif;
+ }
+ #dateTime{
+    font-size: 12px;
+    color: #fff;
+ }
+ #timer{
+    font-size: 25px;
+    margin: 0;
+    color: #fff;
+ }
+
+ /* when we click on gallery */
+ .gallerySites{
+    background-color: #fff;
+ }
+ .headTop{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .headTop i {
+    font-size: 20px;
+ }
+ .inputBar{
+    width: 220px;
+    display: flex;
+    align-items: center;
+    padding: 5px 7px;
+    background-color: rgb(225, 220, 220);
+    border-radius: 7px;
+ }
+ .inputBar i {
+    color: rgb(88, 85, 85);
+    font-size: 12px;
+ }
+ .inputBar input{
+    margin-left: 5px;
+    outline: none;
+    border: none;
+    height: 15px;
+    font-size: 13px;
+    background-color: rgb(225, 220, 220);
+ }
+ .btnGroup{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+ }
+ .btnGroup button{
+    border: none;
+    background-color: #fff;
+ }
+ .btnGroup button:focus{
+    border-bottom: 2px solid red;
+    color: red;
+ }
+
+ /* All images css start here */
+ .allImages{
+    margin-top: 20px;
+ }
+ /* setting css start */
+ .settingDetail{
+   height: 500px;
+   border-radius: 15px;
+   margin: 8px 3px;
+   position: relative;
+   z-index: 1;
+   background-color: #fff;
+}
+.inputBar2{
+   width: 220px;
+   display: flex;
+   align-items: center;
+   padding: 5px 7px;
+   background-color: rgb(225, 220, 220);
+   border-radius: 7px;
+}
+.inputBar2 i {
+   color: rgb(88, 85, 85);
+   font-size: 12px;
+}
+.inputBar2 input{
+   margin-left: 5px;
+   outline: none;
+   border: none;
+   height: 15px;
+   font-size: 13px;
+   background-color: rgb(225, 220, 220);
+}
+.sigUp{
+   display: flex;
+   align-items: center;
+   margin-top: 10px;
+}
+.sigUp i {
+   font-size: 20px;
+   padding: 6px;
+   border-radius: 7px;
+}
+#signInFirst{
+   border: 1px solid;
+   font-size: 20px;
+   padding: 6px;
+   color: rgb(160, 157, 157);
+   border-radius: 7px;
+}
+.sign1{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 215px;
+   padding-left: 10px;
+   border-bottom: 1px solid grey;
+   padding-bottom: 10px;
+}
+.sign1-b{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 215px;
+   padding-left: 10px;
+   padding-bottom: 10px;
+}
+#sign2{
+   font-size: 14px;
+   padding-bottom: 0;
+   margin-bottom: 0;
+}
+#sign3{
+   font-size: 12px;
+   margin-bottom: 0;
+}
+#sign4{
+   color: rgb(160, 157, 157);
+   font-size: 17px;
+   border: none;
+}
+#test{
+   width: 254px;
+   height: 500px;
+   overflow: auto;
+}
+#test::-webkit-scrollbar{
+   display: none;
+}
+ /* Google detail css start from here */
+ .googleDetail{
+   height: 500px;
+   border-radius: 15px;
+   margin: 8px 3px;
+   position: relative;
+   z-index: 1;
+   background-color: #fff;
+}
+.notification{
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   margin-top: 20px;
+}
+.notification img{
+   width: 25px;
+   border-radius: 50%;
+   margin-left: 15px;
+}
+.googleImg{
+   text-align: center;
+}
+.googleImg img{
+   width: 100px;
+}
+#slideScroll{
+   width: 254px;
+   height: 65px;
+   overflow: auto;
+   padding-left: 0;
+}
+#slideScroll::-webkit-scrollbar{
+   display: none;
+}
+.slideFlex{
+   display: flex;
+   width: 1000px;
+   border-bottom: 1px solid rgb(198, 193, 193);
+   padding-bottom: 10px;
+}
+.slide1{
+   display: flex;
+   width: 190px;
+   padding: 8px 5px;
+   border-radius: 100px;
+   margin-right: 10px;
+   background-color: rgb(236, 228, 228);
+}
+.slide1 i{
+   background-color: #fff;
+   padding: 10px;
+   border-radius: 50%;
+   margin-left: 5px;
+   color: rgb(72, 72, 232);
+}
+#slide-child2{
+   font-size: 11px;
+}
+.slide-child p{
+   font-size: 12px;
+   padding-bottom: 0;
+   margin-bottom: 0;
+   margin-left: 7px;
+}
+.description{
+   margin-top: 20px;
+   border-bottom: 1px solid rgb(208, 202, 202);
+   padding-bottom: 10px;
+}
+.manPic1{
+ height: 130px;
+ background-image: url('./images2/babar.jpg');
+ background-position: center;
+ background-size: cover;
+ border-radius: 10px;
+}
+.manPic2{
+   height: 130px;
+   background-image: url('./images2/uk.jpg');
+   background-position: center;
+   background-size: cover;
+   border-radius: 10px;
+}
+.manPic3{
+   height: 130px;
+   background-image: url('./images2/cyber.jpg');
+   background-position: center;
+   background-size: cover;
+   border-radius: 10px;
+}
+.manPic4{
+   height: 130px;
+   background-image: url('./images2/js.png');
+   background-position: center;
+   background-size: cover;
+   border-radius: 10px;
+}
+.manPic5{
+   height: 130px;
+   background-image: url('./images2/runningMan.jpg');
+   background-position: center;
+   background-size: cover;
+   border-radius: 10px;
+}
+.picAndDes p{
+   margin-bottom: 0;
+   padding-bottom: 0;
+}
+.tvChannel{
+   display: flex;
+   justify-content: space-between;
+
+   align-items: center;
+}
+.channelName {
+   display: flex;
+   align-items: center;
+   padding-top:0 ;
+   margin-top: 0;
+}
+.channelName img{
+   width: 50px;
+   height: 20px;
+}
+.channelName p {
+   margin-bottom: 0;
+   font-size: 12px;
+}
+.extraDetail i{
+   margin-left: 15px;
+}
+/* newsDescript id / scroll bar*/
+#newsDescript{ 
+width: 254px;
+   height: 260px;
+   overflow: auto;
+   padding-left: 0;
+}
+#newsDescript::-webkit-scrollbar{
+   display: none;
+}

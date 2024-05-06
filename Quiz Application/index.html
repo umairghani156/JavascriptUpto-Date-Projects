@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+
+<body style="background-color: #D2D6D1;">
+    <h2 id="heading">Quiz App</h2>
+    <div class="container1">
+        <div class="timer">
+            <p id="timerUpdate"></p>
+        </div>
+        <h4 id="question"></h4>
+        <div class="radioOpt">
+            <input type="radio" onclick="enableBtn()" name="option" id="radio1" value="1">
+            <label for="option1" id="option1"></label>
+        </div>
+        <div class="radioOpt">
+            <input type="radio" onclick="enableBtn()" name="option" id="radio2" value="2">
+            <label for="option2" id="option2"></label>
+        </div>
+        <div class="radioOpt">
+            <input type="radio" onclick="enableBtn()" name="option" id="radio3" value="3">
+            <label for="option3" id="option3"></label>
+        </div>
+        <button type="button" class="btn btn-primary" id="btn" disabled style="width: 100%;"
+            onclick="quizHandler()">Next</button>
+    </div>
+    <div class="mainParent" style="display: none;">
+        <div class="heading">
+            <p id="para1">Congratulations, you passed</p>
+            <div class="para">
+                <p id="para2">Total Questions <span>10</span></p>
+                <p id="para3">Correct Questions <span id="correctQuestion">7</span></p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="circle">
+                <div class="wrapper">
+                    <span class="value">100%</span>
+                </div>
+            </div>
+        </div>
+        <button id="backBtn" onclick="restartQuiz()">Back to Quiz</button>
+    </div>
+
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

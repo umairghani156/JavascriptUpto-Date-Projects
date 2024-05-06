@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+button{
+    width: 100px;
+    height: 100px;
+}
+h2{
+    margin-bottom: 20px;
+    transition: all 3s;
+}
+p{
+    font-size: 20px;
+}
+#blue{
+    background-color: blue;
+}
+#pink{
+    background-color: pink;
+}
+#white{
+    background-color: white;
+}
+#grey{
+    background-color: grey;
+}
+#red{
+    background-color: red;
+}
+#orange{
+    background-color: orange;
+}
+#green{
+    background-color: green;
+}
+#orangered{
+    background-color: orangered;
+}
+#crimson{
+    background-color: crimson;
+}
+#colors{
+    font-family: sans-serif;
+}

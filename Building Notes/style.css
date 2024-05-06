@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(135deg, #cf9aff, #95c0ff);
+}
+.fa-book{
+    margin-right:5px ;
+    color: #E3860B;
+}
+.container{
+    margin-top: 50px;
+}
+#btn{
+    border: 1px solid grey;
+    padding: 4px 4px;
+    border-radius: 10px;
+    background: linear-gradient(#9418fd, #8c43cd);
+    color: #fff;
+}
+.fa-pen-to-square{
+    margin-right: 5px;
+    color: #fff;
+}
+.noteParent{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+#notebook{
+    position: relative;
+    outline: none;
+}
+textarea{
+    border: none;
+    border-top: 1px solid grey;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}
+textarea:focus{
+    outline: none;
+}
+.fa-trash{
+    border-top: 0;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #fff;
+    color: red;
+    padding: 4px 10px;
+}

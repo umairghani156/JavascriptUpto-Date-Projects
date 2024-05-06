@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(230, 242, 238);
+}
+main{
+    margin-top: 50px;
+}
+.container{
+    text-align: center;
+}
+.container h1 {
+    font-family: sans-serif;
+}
+.container p{
+    font-size: 15px;
+    opacity: 0.7;
+    margin-top: 10px;
+}
+.parent{
+    display: flex;
+    width: 692px;
+    margin: 40px auto;
+}
+.parent img{
+    width: 350px;
+}
+button{
+    width: 104px;
+    height: 30px;
+    border: 1px solid black;
+    font-family: sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+
+}
+#History{
+    background-color: aqua;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    background-color: rgb(196, 191, 191);
+    cursor: pointer;
+    border-radius: 5px 0 0 0;
+}
+#History:hover{
+    background-color: rgb(230, 242, 238);
+    color: dodgerblue;
+}
+#History:focus{
+    border-left: 2px solid dodgerblue;
+    border-top: 2px solid dodgerblue;
+    border-bottom: 2px solid dodgerblue;
+    background-color: white;
+    border-radius: 5px 0 0 5px;
+}
+#Vision{
+    background-color: rgb(196, 191, 191);
+    border: none;
+    cursor: pointer;
+}
+#Vision:hover{
+    background-color: rgb(230, 242, 238);
+    color: dodgerblue;
+}
+#Vision:focus{
+    border-top: 2px solid dodgerblue;
+    border-bottom: 2px solid dodgerblue;
+    background-color: white;
+}
+#Goals{
+    background-color: rgb(196, 191, 191);
+    border: none;
+    cursor: pointer;
+    border-radius: 0 5px 0 0;
+}
+#Goals:hover{
+    background-color: rgb(230, 242, 238);
+    color: dodgerblue;
+}
+#Goals:focus{
+    border-right: 2px solid dodgerblue;
+    border-top: 2px solid dodgerblue;
+    border-bottom: 2px solid dodgerblue;
+    background-color: white;
+    border-radius: 0 5px 5px 0;
+}
+.buttons{
+    margin-left: 20px;
+}
+
+.subjectAbout{
+    background-color: white;
+    width: 320px;
+    padding: 15px 10px;
+}
+.subjectAbout h3{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.subjectAbout p{
+    margin-top: 5px;
+    font-size: 14px;
+    opacity: 0.6;
+}
+.pictures{
+    width: 350px;
+}
+.pictures img{
+    width: 350px;
+    height: 210px;
+    border-radius: 5px;
+}

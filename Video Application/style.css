@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.btnParent{
+    position: absolute;
+    left: 300px;
+    top: 300px;
+    padding: 0;
+    background-color: white;
+    display: flex;
+    border-radius: 5px;
+}
+#btn1{
+    border: none;
+    width: 40px;
+    float: left;
+    background-color: dodgerblue;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 2px 2px;
+    color: dodgerblue;
+}
+#btn2{
+    border: none;
+    width: 40px;
+    float: left;
+    background-color: dodgerblue;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 2px 2px;
+    color: dodgerblue;
+}
+#btn2:focus{
+    background-color: white;
+    color: dodgerblue;
+}
+#btn1:focus{
+    background-color: white;
+    color: dodgerblue;
+    border-radius: 10px;
+}
